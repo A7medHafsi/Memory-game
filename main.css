@@ -31,8 +31,8 @@ body{
     }
 }
 .head{
-    width: 880px;
-    margin: 10px auto;
+    width: 780px;
+    margin: 20px auto;
     background-color: #918d8db2;
     color: white;
     padding: 10px 20px;
@@ -50,27 +50,27 @@ body{
 }
 .continer-box{
     display: flex;
-    width: 900px;
+    width: 800px;
     flex-wrap: wrap;
     margin: 20px auto;
     perspective: 1000px; 
     .box{
-        height: 160px;
+        height: 120px;
         transition: transform .5s;
         transform-style: preserve-3d ;
         cursor: pointer;
         position: relative;
-        flex: 1 0 160px;
+        flex: 1 0 120px;
         margin: 0 8px 8px;
         .front{
             background-color: #918d8db2;
-            line-height: 160px;
+            line-height: 120px;
 
         }
         .front::before{
             content: '!';
             color: white;
-            font-size: 140px;
+            font-size: 100px;
         }
         .back{
             background-color: #918d8db2;
@@ -78,7 +78,7 @@ body{
             img{
                 height: 100px;
                 width: 100px;
-                margin: 30px;
+                margin: 10px;
             }
         }
         .face{
