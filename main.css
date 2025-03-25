@@ -55,16 +55,16 @@ body{
     margin: 20px auto;
     perspective: 1000px; 
     .box{
-        height: 120px;
+        height: 150px;
         transition: transform .5s;
         transform-style: preserve-3d ;
         cursor: pointer;
         position: relative;
-        flex: 1 0 120px;
+        flex: 1 0 150px;
         margin: 0 8px 8px;
         .front{
             background-color: #918d8db2;
-            line-height: 120px;
+            line-height: 150px;
 
         }
         .front::before{
@@ -78,7 +78,7 @@ body{
             img{
                 height: 100px;
                 width: 100px;
-                margin: 10px;
+                margin: 25px;
             }
         }
         .face{
